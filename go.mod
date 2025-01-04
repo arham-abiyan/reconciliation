@@ -1,3 +1,3 @@
-module github.com/arham09/reconciliation-svc
+module github.com/arham-abiyan/reconciliation
 
 go 1.22.6
