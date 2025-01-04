@@ -7,8 +7,8 @@ This repository contains a Go-based application for reconciling transactions bet
 To get started, clone this repository and navigate into it:
 
 ```bash
-git clone <repository-url>
-cd <repository-directory>
+git clone https://github.com/arham-abiyan/reconciliation.git
+cd reconciliation
 ```
 
 ## Running the Application
