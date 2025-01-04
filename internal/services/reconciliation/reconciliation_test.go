@@ -268,19 +268,19 @@ T3,300.00,2024-01-03`
 				{
 					UniqueIdentifier: "T1",
 					Amount:           100.00,
-					Type:             "DEBIT",
+					Type:             "CREDIT",
 					Date:             parseDate("2024-01-01"),
 				},
 				{
 					UniqueIdentifier: "T2",
 					Amount:           250.00,
-					Type:             "CREDIT",
+					Type:             "DEBIT",
 					Date:             parseDate("2024-01-02"),
 				},
 				{
 					UniqueIdentifier: "T3",
 					Amount:           300.00,
-					Type:             "DEBIT",
+					Type:             "CREDIT",
 					Date:             parseDate("2024-01-03"),
 				},
 			},
