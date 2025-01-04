@@ -8,9 +8,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/arham09/reconciliation-svc/internal/model"
-	"github.com/arham09/reconciliation-svc/internal/services/reconciliation"
-	"github.com/arham09/reconciliation-svc/pkg"
+	"github.com/arham-abiyan/reconciliation/internal/model"
+	"github.com/arham-abiyan/reconciliation/internal/services/reconciliation"
+	"github.com/arham-abiyan/reconciliation/pkg"
 )
 
 const (

@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arham09/reconciliation-svc/internal/model"
+	"github.com/arham-abiyan/reconciliation/internal/model"
 )
 
 func parseDateWithTime(dateStr string) time.Time {

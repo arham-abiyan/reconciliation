@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/arham09/reconciliation-svc/internal/model"
-	"github.com/arham09/reconciliation-svc/internal/services"
+	"github.com/arham-abiyan/reconciliation/internal/model"
+	"github.com/arham-abiyan/reconciliation/internal/services"
 )
 
 type Service struct {
@@ -96,9 +96,9 @@ func parseCSV(filePath string, isSystem bool) ([]model.Transaction, []model.Bank
 		amount, _ := strconv.ParseFloat(record[1], 64)
 		date, _ := time.Parse("2006-01-02", record[2])
 
-		trxType := "DEBIT"
+		trxType := "CREDIT"
 		if amount < 0 {
-			trxType = "CREDIT"
+			trxType = "DEBIT"
 		}
 
 		bankStatements = append(bankStatements, model.BankStatement{

@@ -6,7 +6,7 @@ import (
 	"log"
 	"strings"
 
-	"github.com/arham09/reconciliation-svc/internal/services/reconciliation"
+	"github.com/arham-abiyan/reconciliation/internal/services/reconciliation"
 )
 
 // Define a custom type for the array of strings
